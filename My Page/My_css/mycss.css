@@ -20,30 +20,44 @@ a:hover{
   color: #ffffff;
 }
 body{
-  padding: 10px 20px;
-  margin: 5px;
+  font-family: serif,arial, "Times New Roman";
 }
 section{
   background-color:#c4aaee;
   padding: 20px;
-  margin: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 table{
     width: 100%;
     margin: 0 auto;
     font-size: 110%;
-    font-family: serif, arial, "Times New Roman";
+    font-family: serif,arial, "Times New Roman";
     line-height: 150%;
-    text-align: center;
     border-radius: 5px;
-    overflow-x: auto;
 }
 tr th{
-  color:#3c1874;
   text-align: center;
+}
+th {
+  background-color: #3c1874;
+  color: white;
 }
 tr td{
   text-align: left;
+  padding: 8px;
+  background-color: #a77fe6;
+  color: #2b1155;
+}
+tr:hover td{
+  opacity: 1;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000000;
+  background-color:#986ae2;
+}
+tr:hover th{
+  opacity: 1;
+  text-shadow: 2px 2px 2px #000000;
 }
 .mid{
   text-align:center;
